@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main - prints sizes of char, int, long int and float 
+ *main - prints the size of char, int, long int and float 
  *Return: exits the program
  */
 int main(void)
