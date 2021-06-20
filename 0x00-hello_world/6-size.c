@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - prints the size of char, int, long int and float 
- *Return: exits the program
+ * main - prints the size of char, int, long int and float 
+ * Return: exits the program
  */
 int main(void)
 {
