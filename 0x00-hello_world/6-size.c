@@ -1,8 +1,9 @@
 #include <stdio.h>
+
 /**
- * main - prints the size of char, int, long int and float 
- * Return: exits the program
- */
+* main - prints the size of char, int, long int and float 
+* Return: exits the program
+*/
 int main(void)
 {
 printf("Size of a char: %d byte(s)\n", sizeof(char));
