@@ -3,7 +3,7 @@
  * *_strcpy - copies the sting pointed to by the source
  * @dest: char type string
  * @src: char type
- * Return: void
+ * Return: Pointer to dest
  */
 char *_strcpy(char *dest, char *src)
 {
