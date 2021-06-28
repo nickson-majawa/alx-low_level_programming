@@ -12,9 +12,9 @@ len = 0;
 while(*(s + i))
 {
 len++;
-i++
+i++;
 }
-for (i = 0; i < len /2; i++)
+for (i = 0; i < len / 2; i++)
 {
 char c = *(s +i);
 *(s+i) = *(s + len - i - 1);
