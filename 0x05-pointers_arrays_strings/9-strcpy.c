@@ -5,7 +5,7 @@
  * @src: char type
  * Return: void
  */
-char *_strcpy(char *des, char *src)
+char *_strcpy(char *dest, char *src)
 {
 int i = -1;
 do
