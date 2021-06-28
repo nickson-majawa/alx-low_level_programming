@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <string.h>
 /**
  * puts_half - prints second half ofthe string
  * @str: string
