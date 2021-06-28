@@ -6,9 +6,6 @@
  */
 void reset_to_98(int *n)
 {
-int p = 98;
-n = &p;
-printf("Addreess of 'p': %p\n " &p);
-printf("Value of 'n' : %p\n", n);
+*n = 98;
 return (0);
 }
