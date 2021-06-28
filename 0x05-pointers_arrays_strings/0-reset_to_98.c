@@ -8,6 +8,7 @@ void reset_to_98(int *n)
 {
 int p = 98;
 n = &p;
-printf("n = %p\n" &n);
+printf("Addreess of 'p': %p\n " &p);
+printf("Value of 'n' : %p\n", n);
 return (0);
 }
