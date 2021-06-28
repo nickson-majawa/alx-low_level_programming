@@ -6,7 +6,13 @@
  */
 int _strlen(char *s)
 {
-*s = "Holberton";
-len = strlen(s);
+int i, len;
+i = 0;
+len = 0;
+while ((int)*(s + i))
+{
+len++;
+i++;
+}
 return (len);
 }
