@@ -7,21 +7,17 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-int i, j, n = 0, x = 0;
-while (s[n])
-n++;
- 
-while (accept[x])
-x++;
- 
-for (i = 0; i <= n; i++)
+int i;
+while (*s)
 {
-for (j = 0; j <= x; j++)
+i = 0;
+while (*(accept + i))
 {
-if (s[i] == accept[j])
-return (s + i);
-}
-}
-s = 0;
+if (*(accept + i) == *s)
 return (s);
+i++;
+}
+s++;
+}
+return (NULL);
 }
