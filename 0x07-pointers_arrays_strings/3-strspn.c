@@ -7,26 +7,24 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int i, j, n = 0, x = 0;
-unsigned int count = 0;
-while (s[x])
+int i, length, exist;
+length = 0;
+while (*s)
 {
-x++;
-}
-while (accept[n])
-n++;
-for (i = 0; i < x; i++)
+i = 0 , exist = 0;
+while (*(accept + i))
 {
-for (j = 0; j <= n; j++)
+if (*(accept + i) == *s)
 {
-if (accept[j] == s [i])
-{
-count++;
+exist = 1;
+length++;
 break;
 }
-if (!accept[j])
-i = x;
+i++;
 }
+if (exist == 0)
+break;
+s++
 }
-return (count);
+return (length);
 }
