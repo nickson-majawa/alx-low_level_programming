@@ -18,7 +18,7 @@ s2 = "";
  
 while (s1[len1])
 len++;
-while (s2[len2])
+while (s2[len])
 len++;
  
 ptr = malloc((sizeof(char) *(len + len) +1);
