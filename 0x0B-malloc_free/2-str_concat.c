@@ -15,13 +15,13 @@ s1 = "";
 if (s2 == 0)
 s2 = "";
 while (s1[len1])
-len++;
+len1++;
 while (s2[len])
 len++;
 ptr = malloc(sizeof(char) * (len + len1) + 1);
 if (!(ptr == NULL))
 {
-for (i = 0; i < len; i++)
+for (i = 0; i < len1; i++)
 ptr[i] = s1[i];
 for (j = i; j <= (len + len1); j++)
 {
