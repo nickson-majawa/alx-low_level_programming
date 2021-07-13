@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include "holberton.h"
 /**
- * _str_concat - concats two strings
+ * str_concat - concats two strings
  * @s1: pointer character
  * @s2: another pointer character
  * Return: pointe value
  */
-char *_str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 char *ptr;
 int len = 0, len1 = 0, i = 0, j = 0, k = 0;
