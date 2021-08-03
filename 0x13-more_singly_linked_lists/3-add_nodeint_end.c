@@ -14,7 +14,9 @@ listint_t *newNode = (listint_t *)malloc(sizeof(listint_t));
 listint_t *lastNode = (*head);
 
 if (!newNode)
+{
 return (NULL);
+}
 newNode->n = n;
 newNode->next = NULL;
   
