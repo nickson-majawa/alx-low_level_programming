@@ -13,7 +13,7 @@ while (h)
 {
 count++;
 printf("%d\n", h->n);
-h = h ->next;
+h = h->next;
 }
 return (count);
 }
