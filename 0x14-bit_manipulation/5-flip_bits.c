@@ -13,7 +13,7 @@ unsigned long int count = 0, aux = n ^ m;
 while (aux > 0)
 {
 count += (aux & 1);
-aux >> = 1;
+aux >>= 1;
 }
   
 return (count);
