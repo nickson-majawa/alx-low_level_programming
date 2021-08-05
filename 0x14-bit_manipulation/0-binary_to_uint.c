@@ -13,6 +13,11 @@ return (1);
 else
 return (-1);
 }
+/**
+ * _strlen_recursion - returns the length of string
+ * @s: pointer paramter 
+ * Return: count size
+ */
 
 int _strlen_recursion(const char *s)
 {
@@ -29,6 +34,8 @@ return (count);
 }
 /**
  * binary_to_uint - converts binary to unsogned int
+ * @b: points to string of 0 and 1 chars
+ * Return: the converted number
  */
 unsigned int binary_to_uint(const char *b)
 {
