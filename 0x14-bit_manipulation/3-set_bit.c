@@ -8,11 +8,9 @@
  */
 int set_bit(unsigned long int *n, unsigned int index)
 {
-int bit = 1;
-if (index > 64)
+if (index >= (sizeof(unsigned long int) * 8))
 return (-1);
-
-bit == bit << index;
-*n = (*n | bit);
+ 
+*n ^= (1 << index);
 return (1);
 }
