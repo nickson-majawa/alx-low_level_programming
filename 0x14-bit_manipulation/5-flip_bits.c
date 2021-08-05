@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * flip_bits - returns the number of bits needed
  * @n: number
