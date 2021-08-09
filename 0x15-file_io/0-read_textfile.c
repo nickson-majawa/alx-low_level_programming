@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * rrea_textfile - reads text file and prints it to POSIX stdout.
+ * read_textfile - reads text file and prints it to POSIX stdout.
  * @filename: A pointer to  the name of the file
  * @letters: the number of letters the function should read and print
  * Return: If the function failsor filename is NULL
